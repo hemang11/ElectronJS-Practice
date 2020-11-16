@@ -1,0 +1,14 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Hemang",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^10.1.5"
+  }
+}
