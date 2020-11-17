@@ -1,0 +1,28 @@
+{
+  "name": "collab-desktopapp",
+  "version": "1.0.0",
+  "description": "This is a Desktop version of Collaborative text Editor",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "webpack --mode=production"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "quill": "^1.3.7",
+    "quill-cursors": "^2.2.1",
+    "socket.io-client": "^3.0.1",
+    "uuidv4": "^6.2.5",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.10.1",
+    "y-quill": "0.1.3",
+    "y-websocket": "^1.3.1",
+    "yjs": "^13.3.2"
+  },
+  "author": "Hemang Shrimali",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^10.1.5"
+  }
+}
